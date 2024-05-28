@@ -1,7 +1,8 @@
 package estudos.estaticos_abstracao_interface.statico.atributos;
 
 public class RelogioPontoMain {
-    public static void main(String[] args) {
+    @SuppressWarnings("static-access")
+public static void main(String[] args) {
         RelogioPonto filialA = new RelogioPonto(1, "Centro");
         RelogioPonto filialB = new RelogioPonto(2, "Alecrim");
         RelogioPonto filialC = new RelogioPonto(3, "Rocas");
