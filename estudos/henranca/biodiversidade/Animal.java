@@ -1,6 +1,6 @@
 package estudos.henranca.biodiversidade;
 
-public class Animal {
+public abstract class Animal {
     private String nome;
     private float comprimento;
     private int numPatas;
@@ -45,7 +45,7 @@ public class Animal {
         this.velMedia = velMedia;
     }
 
-    public void dados() {
+     public void dados() {
         System.out.println("\nNome: " + nome);
         System.out.println("Comprimento: " + comprimento + " cm");
         System.out.println("Número de Patas: " + numPatas);
